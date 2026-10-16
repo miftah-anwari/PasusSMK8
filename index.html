@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keluarga Besar PASUS SMKN 8 Pekanbaru</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="header" class="header">
+        <div class="nav-container">
+            <a href="#beranda" class="logo-brand">
+                <span class="brand-title">PASUS</span>
+                <span class="brand-subtitle">SMKN 8 PEKANBARU ANGKATAN 2024/2025/2026</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#beranda" class="nav-link active">Beranda</a>
+                <a href="#cerita" class="nav-link">Cerita Kami</a>
+                <a href="#galeri" class="nav-link">Galeri</a>
+                <a href="#momen" class="nav-link">Momen</a>
+                <a href="#kenangan" class="nav-link">Kenangan</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#galeri" class="btn-primary-outline">Jelajahi Galeri</a>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Menu Utama">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="hero-section">
+        <div class="hero-grid container">
+            <div class="hero-content fade-up">
+                <div class="hero-labels">
+                    <span class="badge">KELUARGA BESAR PASUS</span>
+                    <span class="badge badge-outline">SMKN 8 PEKANBARU</span>
+                </div>
+                <h1 class="hero-title">KAMI BUKAN SEKADAR SATU TIM.</h1>
+                <h2 class="hero-subtitle">Kami adalah keluarga yang tumbuh bersama.</h2>
+                <p class="hero-desc">
+                    Di balik setiap langkah, latihan, dan perjuangan, ada cerita tentang kebersamaan, kedisiplinan, dan persaudaraan yang akan selalu menjadi bagian dari perjalanan kami.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#momen" class="btn-solid">Jelajahi Kenangan</a>
+                    <a href="#galeri" class="btn-outline">Lihat Galeri</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-up">
+                <img src="img/passus28.jpg" alt="Keluarga Besar PASUS SMKN 8 Pekanbaru" class="hero-img">
+                <div class="image-caption-tag">Arsip Dokumentasi Utama</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERITA KAMI -->
+    <section id="cerita" class="story-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-tag">NARRATIVE</span>
+                <h2 class="section-title">Lebih dari Sekadar Kebersamaan</h2>
+            </div>
+            <div class="story-grid">
+                <div class="story-image-box fade-up">
+                    <img src="img/passus2.jpg" alt="Anggota PASUS dalam seragam Pramuka" loading="lazy">
+                </div>
+                <div class="story-text-box fade-up">
+                    <h3>Ruang Tumbuh dan Berproses</h3>
+                    <p>
+                        PASUS SMKN 8 Pekanbaru bukan sekadar wadah baris-berbaris atau kegiatan ekstrakurikuler biasa. Tempat ini adalah rumah kedua di mana kedisiplinan ditempa, rasa tanggung jawab ditumbuhkan, dan ikatan persaudaraan diuji dalam setiap momen kebersamaan.
+                    </p>
+                    <p>
+                        Setiap keringat, tawa, dan tantangan yang dilalui bersama membentuk karakter kuat pada setiap anggotanya, meninggalkan jejak kenangan yang takkan pernah pudar oleh waktu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI FOTO -->
+    <section id="galeri" class="gallery-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-tag">ARSIP VISUAL</span>
+                <h2 class="section-title">Galeri Kenangan</h2>
+                <p class="section-desc">Kumpulan momen autentik yang merekam perjalanan kebersamaan kami.</p>
+            </div>
+
+            <!-- Filter Tombol -->
+            <div class="gallery-filters fade-up">
+                <button class="filter-btn active" data-filter="all">Semua Momen</button>
+                <button class="filter-btn" data-filter="pramuka">Seragam Pramuka</button>
+                <button class="filter-btn" data-filter="kekompakan">Kekompakan</button>
+                <button class="filter-btn" data-filter="lapangan">Aktivitas Lapangan</button>
+                <button class="filter-btn" data-filter="putih">Seragam Putih</button>
+            </div>
+
+            <!-- Grid Galeri -->
+            <div class="gallery-grid">
+                <div class="gallery-item fade-up" data-category="pramuka">
+                    <img src="img/passus12.jpg" alt="Kebersamaan dalam Seragam Pramuka" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Seragam Pramuka</span>
+                        <h4>Ikatan Kebersamaan</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="kekompakan">
+                    <img src="img/passus1.jpg" alt="Satu Lingkaran Satu Keluarga" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Kekompakan</span>
+                        <h4>Satu Lingkaran, Satu Keluarga</h4>
+                       
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus5.jpg" alt="Aktivitas di Lapangan" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Langkah dan Perjuangan</h4>
+                       
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="putih">
+                    <img src="img/passus22.jpg" alt="Kebersamaan dalam Seragam Putih" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Seragam Putih</span>
+                        <h4>Kebersamaan dalam Putih</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="kekompakan">
+                    <img src="img/passus9.jpg" alt="Keluarga Besar PASUS" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Kekompakan</span>
+                        <h4>Keluarga Besar</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus30.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus8.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus15.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus18.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus24.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus23.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-category="lapangan">
+                    <img src="img/passus26.jpg" alt="Barisan Solid" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">Aktivitas Lapangan</span>
+                        <h4>Solidaritas Tanpa Batas</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOMEN YANG TAK TERLUPAKAN -->
+    <section id="momen" class="moments-section section-padding">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="section-tag">STORYLINE</span>
+                <h2 class="section-title">Momen yang Tak Terlupakan</h2>
+                <p class="section-desc">Potongan cerita dokumenter dari perjalanan yang telah kita lewati bersama.</p>
+            </div>
+
+            <div class="moments-timeline">
+                <div class="moment-card fade-up">
+                    <div class="moment-img-wrapper">
+                        <img src="img/passus17.jpg" alt="Di Balik Seragam" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-number">Momen 01</span>
+                        <h3>Di Balik Seragam</h3>
+                        <p>“Seragam yang sama, semangat yang sama, dan perjalanan yang mempertemukan kami sebagai satu keluarga.”</p>
+                    </div>
+                </div>
+
+                <div class="moment-card reverse fade-up">
+                    <div class="moment-img-wrapper">
+                        <img src="img/passus29.jpg" alt="Satu Lingkaran, Satu Keluarga" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-number">Momen 02</span>
+                        <h3>Satu Lingkaran, Satu Keluarga</h3>
+                        <p>“Ketika semua berkumpul dalam satu lingkaran, tidak ada yang berjalan sendirian. Kami belajar bahwa kekuatan tumbuh dari kebersamaan.”</p>
+                    </div>
+                </div>
+
+                <div class="moment-card fade-up">
+                    <div class="moment-img-wrapper">
+                        <img src="img/passus25.jpg" alt="Langkah dan Perjuangan" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-number">Momen 03</span>
+                        <h3>Langkah dan Perjuangan</h3>
+                        <p>“Setiap gerakan dan usaha menjadi bagian dari proses belajar untuk lebih disiplin, tangguh, dan saling mendukung.”</p>
+                    </div>
+                </div>
+
+                <div class="moment-card reverse fade-up">
+                    <div class="moment-img-wrapper">
+                        <img src="img/passus11.jpg" alt="Kebersamaan dalam Putih" loading="lazy">
+                    </div>
+                    <div class="moment-content">
+                        <span class="moment-number">Momen 04</span>
+                        <h3>Kebersamaan dalam Putih</h3>
+                        <p>“Berbeda dalam karakter, tetapi tetap berdiri bersama. Inilah bagian dari perjalanan yang akan selalu kami kenang.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- KUTIPAN SECTION -->
+    <section class="quote-section">
+        <div class="container text-center fade-up">
+            <blockquote>
+                “Kenangan mungkin berlalu, tetapi persaudaraan tidak harus berakhir.”
+            </blockquote>
+            <p class="quote-desc">
+                Setiap foto adalah pengingat bahwa perjalanan ini bukan hanya tentang apa yang kami lakukan, tetapi juga tentang siapa saja yang tumbuh bersama kami.
+            </p>
+        </div>
+    </section>
+
+    <!-- PENUTUP & FOOTER -->
+    <section id="kenangan" class="closing-section section-padding">
+        <div class="container text-center fade-up">
+            <span class="section-tag">FINAL THOUGHTS</span>
+            <h2 class="section-title">Untuk Setiap Cerita yang Pernah Kita Jalani.</h2>
+            <p class="section-desc max-width">
+                Terima kasih telah menjadi bagian dari perjalanan ini. Semoga kebersamaan, pengalaman, dan kenangan yang tercipta akan selalu hidup dalam ingatan kita.
+            </p>
+            <button onclick="scrollToTop()" class="btn-solid back-to-top-btn">Kembali ke Atas</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="brand-title">PASUS</span>
+                <span class="brand-subtitle">SMKN 8 PEKANBARU</span>
+            </div>
+            <p class="footer-text">Dokumentasi kebersamaan, kedisiplinan, dan persaudaraan.</p>
+            <p class="copyright">&copy; <span id="currentYear"></span> Keluarga Besar PASUS SMKN 8 Pekanbaru. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+        <button class="lightbox-prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="lightbox-next" onclick="changeSlide(1)">&#10095;</button>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Zoomed Photo">
+            <p id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="script.js" defer></script>
+</body>
+</html>
